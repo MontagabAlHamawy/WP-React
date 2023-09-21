@@ -16,7 +16,7 @@ function Pages() {
         <>
             <Navbar authUser={authUser} />
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/WP-React" element={<Home />} />
                 <Route path="/blog" element={<Posts />} />
                 <Route path="/post/:id" element={<Post />} />
                 <Route path="/login" element={<Login />} />
