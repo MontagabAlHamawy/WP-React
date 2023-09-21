@@ -11,10 +11,10 @@ function Navbar({authUser}) {
     return (
         <div className='p-5 flex justify-between items-center ' style={{ background: "#eeeeee" }}>
             <div>
-                <Link to='/' className='text-2xl font-semibold'>WR-Blog</Link>
+                <Link to='/WP-React' className='text-2xl font-semibold'>WR-Blog</Link>
             </div>
             <ul className='flex gap-5 justify-end items-center'>
-                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/WP-React'>Home</Link></li>
                 <li><Link to='/blog'>Blog</Link></li>
                 {!authUser?.token ? (
                     <>
